@@ -103,12 +103,10 @@ class App extends Component {
   getUser() {
     return {
       id: '123',
-      susep: 'COL10J',
       numero: 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855', // cpf criptografado em sha256
-      perfil: 'corretor', 
-      logado: 'true', 
-      sucursal: 'sao-paulo',
-      cursos: '3'
+      perfil: 'user', 
+      logado: 'false', 
+      tarefas-criadas: '10'
     }
   }
 
